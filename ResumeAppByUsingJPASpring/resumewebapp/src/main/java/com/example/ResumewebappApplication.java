@@ -1,0 +1,18 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ResumewebappApplication {
+
+    public static void main(String[] args) {
+
+        try {
+            SpringApplication.run(ResumewebappApplication.class, args);
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+    }
+
+}
